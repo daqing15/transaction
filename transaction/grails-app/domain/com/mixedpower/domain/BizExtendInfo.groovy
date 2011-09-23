@@ -3,6 +3,7 @@ package com.mixedpower.domain
 /*
 * 业务扩展信息
 * TB_OPERATION_EX_INFO
+* @author daqing chen
 */
 class BizExtendInfo {
 

@@ -3,6 +3,7 @@ package com.mixedpower.domain
 /*
  *业务受理页面表
  *tb_operation_page
+ * @author daqing chen
 */
 class BusinessPage {
 	

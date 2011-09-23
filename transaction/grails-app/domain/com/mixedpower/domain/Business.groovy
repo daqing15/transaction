@@ -3,6 +3,7 @@ package com.mixedpower.domain
 /*
  * 业务对象
  * 业务主配置信息， 对应‘业务定制’模块的表TB_OPERATION_INFO
+ * @author daqing chen
 */
 class Business {
 		

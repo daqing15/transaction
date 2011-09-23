@@ -3,6 +3,7 @@ package com.mixedpower.domain
 /*
  *业务扩展信息属性定义
  *Table -> tb_operation_ex_define
+ * @author daqing chen
 */
 class BizExtendAttr {
 	
