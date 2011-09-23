@@ -15,12 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0741a707-1f2a-4d99-b8d0-ad1306a164a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizFlowTests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizModuleTests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizNiceHintTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transaction.iws" afterPath="$PROJECT_DIR$/transaction.iws" />
     </list>
     <ignored path="transaction.iws" />
@@ -81,46 +75,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Business.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/Business.groovy">
+      <file leaf-file-name="BizFlow.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="106" selection-end="106" vertical-scroll-proportion="-3.6956522">
+            <state line="7" column="6" selection-start="126" selection-end="126" vertical-scroll-proportion="-2.7045455">
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BizExtendInfo.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendInfo.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="21" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.4782609">
-              <folding />
-            </state>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BizExtendAttr.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendAttr.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.6956522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusinessPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BusinessPage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.6956522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BizModule.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BizModule.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="48" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.10429448">
+            <state line="11" column="29" selection-start="166" selection-end="189" vertical-scroll-proportion="-4.25">
               <folding />
             </state>
           </provider>
@@ -132,7 +102,7 @@
       <file leaf-file-name="BizNiceHint.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="99" selection-start="256" selection-end="256" vertical-scroll-proportion="-1.4318181">
+            <state line="2" column="0" selection-start="31" selection-end="118" vertical-scroll-proportion="-0.77272725">
               <folding />
             </state>
           </provider>
@@ -141,10 +111,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BizFlow.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
+      <file leaf-file-name="FeatureAttribute.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttribute.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="21" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.090909">
+            <state line="9" column="24" selection-start="149" selection-end="166" vertical-scroll-proportion="-3.4772727">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeatureAttrValue.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="25" selection-start="269" selection-end="290" vertical-scroll-proportion="-1.8636364">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttrValueCtrl.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="57" selection-start="698" selection-end="698" vertical-scroll-proportion="0.21839081">
               <folding />
             </state>
           </provider>
@@ -179,6 +173,9 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttribute.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy" />
       </list>
     </option>
   </component>
@@ -226,9 +223,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Grails.Grails:transaction">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -381,14 +378,13 @@
     <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21907601" sideWeight="0.66161615" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25186288" sideWeight="0.55668014" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44331983" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38663968" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2071535" sideWeight="0.21717171" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.32491583" order="3" side_tool="true" content_ui="tabs" />
@@ -397,6 +393,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -448,9 +445,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BusinessPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/Business.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="106" selection-end="106" vertical-scroll-proportion="-3.6956522">
+        <state line="5" column="22" selection-start="106" selection-end="106" vertical-scroll-proportion="-0.38636363">
           <folding />
         </state>
       </provider>
@@ -460,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendInfo.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.4782609">
+        <state line="5" column="25" selection-start="87" selection-end="87" vertical-scroll-proportion="-1.7727273">
           <folding />
         </state>
       </provider>
@@ -470,17 +477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendAttr.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.6956522">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BusinessPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.6956522">
+        <state line="35" column="43" selection-start="841" selection-end="841" vertical-scroll-proportion="-13.522727">
           <folding />
         </state>
       </provider>
@@ -490,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="21" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.090909">
+        <state line="7" column="6" selection-start="126" selection-end="126" vertical-scroll-proportion="-2.7045455">
           <folding />
         </state>
       </provider>
@@ -500,7 +497,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="99" selection-start="256" selection-end="256" vertical-scroll-proportion="-1.4318181">
+        <state line="2" column="0" selection-start="31" selection-end="118" vertical-scroll-proportion="-0.77272725">
           <folding />
         </state>
       </provider>
@@ -510,7 +507,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.10429448">
+        <state line="11" column="29" selection-start="166" selection-end="189" vertical-scroll-proportion="-4.25">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttribute.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="149" selection-end="166" vertical-scroll-proportion="-3.4772727">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="269" selection-end="290" vertical-scroll-proportion="-1.8636364">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="57" selection-start="698" selection-end="698" vertical-scroll-proportion="0.21839081">
           <folding />
         </state>
       </provider>
