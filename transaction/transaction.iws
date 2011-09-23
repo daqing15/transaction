@@ -15,6 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0741a707-1f2a-4d99-b8d0-ad1306a164a5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr$__clinit__closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendAttr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo$__clinit__closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BizExtendInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business$__clinit__closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/Business.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage$__clinit__closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mixedpower/domain/BusinessPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transaction.iws" afterPath="$PROJECT_DIR$/transaction.iws" />
     </list>
     <ignored path="transaction.iws" />
@@ -123,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureAttrValue.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FeatureAttrValue.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="269" selection-end="290" vertical-scroll-proportion="-1.8636364">
+            <state line="5" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.16283526">
               <folding />
             </state>
           </provider>
@@ -135,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttrValueCtrl.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
+      <file leaf-file-name="AttrValueCtrl.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="57" selection-start="698" selection-end="698" vertical-scroll-proportion="0.21839081">
+            <state line="8" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.090909">
               <folding />
             </state>
           </provider>
@@ -176,6 +189,7 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttribute.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/AttrValueCtrl.groovy" />
       </list>
     </option>
   </component>
@@ -212,20 +226,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="149" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="152" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="158" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="833" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="836" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="149" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mixedpower.domain" />
+    </key>
   </component>
   <component name="RunManager" selected="Grails.Grails:transaction">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -375,19 +410,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25186288" sideWeight="0.55668014" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25186288" sideWeight="0.67171717" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44331983" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32828283" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38663968" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2071535" sideWeight="0.21717171" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.32491583" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25186288" sideWeight="0.21548821" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25186288" sideWeight="0.36700338" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24962743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -525,9 +560,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="269" selection-end="290" vertical-scroll-proportion="-1.8636364">
+        <state line="8" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.090909">
           <folding />
         </state>
       </provider>
@@ -535,9 +570,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/com/mixedpower/domain/AttrValueCtrl.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/FeatureAttrValue.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="57" selection-start="698" selection-end="698" vertical-scroll-proportion="0.21839081">
+        <state line="5" column="16" selection-start="127" selection-end="127" vertical-scroll-proportion="0.16283526">
           <folding />
         </state>
       </provider>
