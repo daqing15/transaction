@@ -15,11 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0741a707-1f2a-4d99-b8d0-ad1306a164a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendAttr.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendAttr.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendInfo.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendInfo.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/Business.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/Business.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BusinessPage.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BusinessPage.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transaction.ipr" afterPath="$PROJECT_DIR$/transaction.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizFlowTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizModuleTests.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/com/mixedpower/domain/BizNiceHintTests.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transaction.iws" afterPath="$PROJECT_DIR$/transaction.iws" />
     </list>
     <ignored path="transaction.iws" />
@@ -116,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BizModule.groovy" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BizModule.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="166" selection-end="188" vertical-scroll-proportion="-4.25">
+            <state line="7" column="48" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.10429448">
               <folding />
             </state>
           </provider>
@@ -128,10 +129,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BizFlow.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BizNiceHint.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="99" selection-start="256" selection-end="256" vertical-scroll-proportion="-1.4318181">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BizFlow.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="220" selection-end="227" vertical-scroll-proportion="0.4028436">
+            <state line="11" column="21" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.090909">
               <folding />
             </state>
           </provider>
@@ -165,6 +178,7 @@
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizExtendAttr.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy" />
       </list>
     </option>
   </component>
@@ -343,7 +357,7 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -364,25 +378,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="796" y="36" width="1047" height="646" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1374" height="746" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22068965" sideWeight="0.6700405" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21907601" sideWeight="0.66161615" order="1" side_tool="false" content_ui="tabs" x="462" y="72" width="442" height="594" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44331983" sideWeight="0.0" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38687783" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38663968" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2071535" sideWeight="0.21717171" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.32491583" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24962743" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32591093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -414,7 +428,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="complie" />
+    <option name="LAST_COMMIT_MESSAGE" value="new domain" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -428,6 +442,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="complie" />
+    <MESSAGE value="new domain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -473,9 +488,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="166" selection-end="188" vertical-scroll-proportion="-4.25">
+        <state line="11" column="21" selection-start="277" selection-end="277" vertical-scroll-proportion="-3.090909">
           <folding />
         </state>
       </provider>
@@ -483,9 +498,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizFlow.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizNiceHint.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="220" selection-end="227" vertical-scroll-proportion="0.4028436">
+        <state line="10" column="99" selection-start="256" selection-end="256" vertical-scroll-proportion="-1.4318181">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/mixedpower/domain/BizModule.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="136" selection-end="136" vertical-scroll-proportion="-0.10429448">
           <folding />
         </state>
       </provider>
