@@ -40,9 +40,9 @@ class Business {
 	String prodId					//面向产品标识
 	String custType					//面向客户类型
 	String subGroup					//客户战略子群
-	Date   createTime					//创建时间
+	Date   createTime			    //创建时间
 	String modStaff					//修改者
-	Date   modTime                    //修改时间
+	Date   modTime                  //修改时间
 	String belongOpenFlag 	        //是否开通功能
 	String belongOpenClass 	        //开通类
 	String objType					//受理对象类型

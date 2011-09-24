@@ -64,9 +64,17 @@ class OrderInfo {
     static constraints = {
     }
 
+    List orderDetails
+    static hasMany = [orderDetails:OrderDetail]
+
     static mapping = {
         version false
         table "tb_order_info"
+        id column: "order_no", type: 'string', index: 'ORDER_INFO_ORDER_NO_INDEX'
+        orderDetails joinTable:
+                        [name: "tb_order_detail",
+                        column: 'order_no',
+                        key: 'order_no']
     }
 }
 /*
