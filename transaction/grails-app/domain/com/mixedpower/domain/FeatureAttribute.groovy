@@ -75,6 +75,8 @@ class FeatureAttribute {
 
     }
 
+    List attrValues
+    static hasMany = [attrValues: FeatureAttrValue]
     static mapping = {
         version false
         table "tb_cn_attribute"

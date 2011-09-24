@@ -10,8 +10,8 @@ package com.mixedpower.domain
 class BizModule {
 
     //TODO Grails ORM 自动生成ID [模块id	MODULE_ID	NUMBER(10)	TRUE	FALSE	TRUE]
-    //套餐id	OPER_ID	NUMBER(10)	FALSE	FALSE	TRUE
-    //页面id	PAGE_ID	varchar2(40)	FALSE	FALSE	TRUE
+    String pageId               //页面id	PAGE_ID	varchar2(40)	FALSE	FALSE	TRUE
+    Integer operId              //套餐id	OPER_ID	NUMBER(10)	FALSE	FALSE	TRUE
     String moduleName           //模块名称	MODULE_NAME	VARCHAR2(100)	FALSE	FALSE	TRUE
     String moduleOrder          //显示顺序	MODULE_ORDER	varchar2(100)	FALSE	FALSE	FALSE
     String state                //状态	STATE	VARCHAR2(6)	FALSE	FALSE	TRUE
@@ -23,6 +23,8 @@ class BizModule {
     static constraints = {
         moduleName(blank: false)
         state(blank: false)
+        pageId(blank: false)
+        operId(blank: false)
 
         moduleOrder(nullable: true)
         modTime(nullable: true)

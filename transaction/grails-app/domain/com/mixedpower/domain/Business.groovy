@@ -117,6 +117,7 @@ class Business {
     * */
     List bizPageList
     List bizExtendInfoList
-    static hasMany = [bizPageList: BusinessPage, bizExtendInfoList: BizExtendInfo]
+    List bizNiceHints
+    static hasMany = [bizPageList: BusinessPage, bizExtendInfoList: BizExtendInfo, bizNiceHints: BizNiceHint]
 
  }

@@ -8,7 +8,7 @@ package com.mixedpower.domain.order
  */
 class OrderInfo {
 
-    String orderNo                  //订单编码 primary key	ORDER_NO	varchar2(20)	TRUE	FALSE	TRUE
+    //String orderNo                  //订单编码 primary key	ORDER_NO	varchar2(20)	TRUE	FALSE	TRUE
     String orderLatn                //订单地区	ORDER_LATN	varchar2(4)	FALSE	FALSE	TRUE
     String operCode                 //套餐编码	OPER_CODE	varchar2(20)	FALSE	FALSE	TRUE
     String userLatn                 //客户登录地区	USER_LATN	varchar2(4)	FALSE	FALSE	TRUE
@@ -61,7 +61,61 @@ class OrderInfo {
     Date   ibCurstateDate           //IB工单竣工时间	IB_CURSTATE_DATE	DATE	FALSE	FALSE	FALSE
     String fromUrl                  //业务办理入口url	FROM_URL	VARCHAR2(200)	FALSE	FALSE	FALSE
     String deriveContent            //派生提示内容	DERIVE_CONTENT	CLOB	FALSE	FALSE	FALSE
+
     static constraints = {
+        orderLatn(blank: false)
+        operCode(blank: false)
+        userLatn(blank: false)
+        createTime(blank: false)
+        state(blank: false)
+
+        userId(nullable: true)
+        userLoginType(nullable: true)
+        custId(nullable: true)
+        custCode(nullable: true)
+        custName(nullable: true)
+        custType(nullable: true)
+        certType(nullable: true)
+        certId(nullable: true)
+        agreementId(nullable: true)
+        modStaff(nullable: true)
+        modTime(nullable: true)
+        auditContent(nullable: true)
+        dealContent(nullable: true)
+        feedBack(nullable: true)
+        auditStaff(nullable: true)
+        auditTime(nullable: true)
+        dealStaff(nullable: true)
+        dealTime(nullable: true)
+        isNewPhone(nullable: true) //default 'N'
+        isNewAdsl(nullable: true)  //default 'n'
+        orderNumber(nullable: true)
+        orderNumtype(nullable: true)
+        replyEmail(nullable: true)
+        replyPhsNbr(nullable: true)
+        failInfo(nullable: true)
+        linkMan(nullable: true)
+        linkPhone(nullable: true)
+        ibState(nullable: true)
+        ibFinish(nullable: true)
+        ibOrderno(nullable: true)
+        recommendMan(nullable: true)
+        orderSource(nullable: true)
+        opStaff(nullable: true)
+        opState(nullable: true)
+        opTime(nullable: true)
+        userIp(nullable: true)
+        processId(nullable: true)
+        operType(nullable: true)
+        brandBig(nullable: true)
+        brandSmall(nullable: true)
+        dealType(nullable: true)
+        ibShenqNo(nullable: true)
+        oncefee(nullable: true)
+        oncefee_state(nullable: true)
+        ibCurstateDate(nullable: true)
+        fromUrl(nullable: true)
+        deriveContent(nullable: true)
     }
 
     List orderDetails
@@ -70,11 +124,7 @@ class OrderInfo {
     static mapping = {
         version false
         table "tb_order_info"
-        id column: "order_no", type: 'string', index: 'ORDER_INFO_ORDER_NO_INDEX'
-        orderDetails joinTable:
-                        [name: "tb_order_detail",
-                        column: 'order_no',
-                        key: 'order_no']
+        id generator:"assigned", column: "order_no", type: 'string', index: 'ORDER_INFO_ORDER_NO_INDEX'
     }
 }
 /*
