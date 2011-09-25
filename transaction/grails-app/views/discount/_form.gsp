@@ -23,7 +23,8 @@
         <g:message code="discount.discSort.label" default="Disc Sort"/>
 
     </label>
-    <g:textField name="discSort" value="${discountInstance?.discSort}"/>
+    <g:select name="discSort" from="${discClass}" value="${discClass?.toString()}" />
+    %{--<g:textField name="discSort" value="${discountInstance?.discSort}"/>--}%
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: discountInstance, field: 'offerId', 'error')} ">
@@ -47,7 +48,8 @@
         <g:message code="discount.discTypeTime.label" default="Disc Type Time"/>
 
     </label>
-    <g:textField name="discTypeTime" value="${discountInstance?.discTypeTime}"/>
+    <g:select from="${['年','季','月','时']}" name="discTypeTime" value=""/>
+    %{--<g:textField name="discTypeTime" value="${discountInstance?.discTypeTime}"/>--}%
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: discountInstance, field: 'sellContent', 'error')} ">

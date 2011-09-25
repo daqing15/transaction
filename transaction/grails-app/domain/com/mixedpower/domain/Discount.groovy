@@ -5,14 +5,14 @@ package com.mixedpower.domain
  */
 class Discount {
 
-    String offerCode
-	String discSort
+    String offerCode               //销售品编码
+	String discSort                //优惠分类
 	String offerId
-	String discTypeArea
-	String discName
-	String discTypeTime
+	String discTypeArea           //城区类型
+	String discName               //优惠名称
+	String discTypeTime           //分期类型
 	String discCode
-	String sellContent
+	String sellContent            //销售目录
 
     static constraints = {
         offerCode(nullable: true)

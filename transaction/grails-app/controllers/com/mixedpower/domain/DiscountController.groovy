@@ -15,8 +15,9 @@ class DiscountController {
         [discountInstanceList: Discount.list(params), discountInstanceTotal: Discount.count()]
     }
 
-    def create() {
-        [discountInstance: new Discount(params)]
+    def create = {
+        println DISCOUNT_CLASS.values()
+        [discountInstance: new Discount(params), discClass: DISCOUNT_CLASS.values()]
     }
 
     def save = {
@@ -100,4 +101,8 @@ class DiscountController {
             redirect(action: "show", id: params.id)
         }
     }
+}
+
+enum DISCOUNT_CLASS {
+    E_6, E_8, E_9, E_M, OTHERS
 }
