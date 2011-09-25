@@ -5,7 +5,7 @@ package com.mixedpower.domain
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class BizFlow {
+class BizFlow implements Serializable {
 
     //TODO Grails ORM 自动生成ID [套餐id	OPER_ID	NUMBER(10)	FALSE	FALSE	TRUE]
     Integer pageId              //页面id	PAGE_ID	NUMBER(10)	FALSE	FALSE	TRUE

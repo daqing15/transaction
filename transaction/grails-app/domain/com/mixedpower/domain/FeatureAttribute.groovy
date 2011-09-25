@@ -5,7 +5,7 @@ package com.mixedpower.domain
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class FeatureAttribute {
+class FeatureAttribute implements Serializable {
 
     // Grails ORM 自动生成ID 特性标识	ATTR_ID	NUMBER(10)	TRUE	FALSE	TRUE
     //套餐id	OPER_ID	NUMBER(10)	FALSE	FALSE	TRUE

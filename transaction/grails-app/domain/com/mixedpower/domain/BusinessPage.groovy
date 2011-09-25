@@ -5,7 +5,7 @@ package com.mixedpower.domain
  *tb_operation_page
  * @author daqing chen
 */
-class BusinessPage {
+class BusinessPage implements Serializable {
 	
 	//Ì×²Íid	OPER_ID	NUMBER(10)	FALSE	FALSE	TRUE
 	String pageDesc         //Ò³ÃæÃèÊö	PAGE_DESC	varchar2(40)	FALSE	FALSE	TRUE

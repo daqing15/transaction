@@ -5,7 +5,7 @@ package com.mixedpower.domain
 * TB_OPERATION_EX_INFO
 * @author daqing chen
 */
-class BizExtendInfo {
+class BizExtendInfo implements Serializable {
 
 	String propertyName
 	String attrValue

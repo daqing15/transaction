@@ -5,7 +5,7 @@ package com.mixedpower.domain
  *Table -> tb_operation_ex_define
  * @author daqing chen
 */
-class BizExtendAttr {
+class BizExtendAttr implements Serializable {
 	
 	String attrName			//显示名称
 	String attrType			//属性类型

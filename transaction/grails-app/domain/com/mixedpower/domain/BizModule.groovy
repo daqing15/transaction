@@ -7,7 +7,7 @@ package com.mixedpower.domain
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class BizModule {
+class BizModule implements Serializable {
 
     //TODO Grails ORM 自动生成ID [模块id	MODULE_ID	NUMBER(10)	TRUE	FALSE	TRUE]
     String pageId               //页面id	PAGE_ID	varchar2(40)	FALSE	FALSE	TRUE

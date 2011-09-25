@@ -6,7 +6,7 @@ package com.mixedpower.domain.order
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class OrderInfo {
+class OrderInfo implements Serializable {
 
     //String orderNo                  //订单编码 primary key	ORDER_NO	varchar2(20)	TRUE	FALSE	TRUE
     String orderLatn                //订单地区	ORDER_LATN	varchar2(4)	FALSE	FALSE	TRUE

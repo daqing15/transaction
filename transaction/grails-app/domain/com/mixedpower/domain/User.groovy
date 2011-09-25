@@ -5,7 +5,7 @@ package com.mixedpower.domain
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class User {
+class User implements Serializable {
     String areaCode;
     String custCode;
     String custName;

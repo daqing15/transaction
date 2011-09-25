@@ -6,7 +6,7 @@ package com.mixedpower.domain.order
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class OrderDetail {
+class OrderDetail implements Serializable {
 
     //订单编码	ORDER_NO	varchar2(20)	FALSE	FALSE	TRUE
     Integer attrId              //特性标识	ATTR_ID	numeric(10)	FALSE	FALSE	TRUE

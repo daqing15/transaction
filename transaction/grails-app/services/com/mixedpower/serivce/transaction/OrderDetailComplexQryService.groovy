@@ -1,29 +1,37 @@
 package com.mixedpower.serivce.transaction
 
-import groovy.sql.Sql
-import com.mixedpower.domain.User
 import org.springframework.jdbc.core.JdbcTemplate
-import org.springframework.jdbc.core.PreparedStatementCallback
-import java.sql.PreparedStatement
-import com.mixedpower.domain.order.OrderDetail
+import com.mixedpower.domain.Business
 
 /**
- * Order订单复杂类查询服务类，直接使用GDBC
+ * Order订单复杂类查询服务类，使用SpringJDBC模板技术
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
 class OrderDetailComplexQryService {
 
     static transactional = false
-    def dataSource
-    JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource: dataSource)
+    JdbcTemplate jdbcTemplate //= new JdbcTemplate(dataSource: dataSource)
 
     def queryOrderDetails(params) {
         def orderNo = params.orderNo
         println orderNo
-        OrderDetail orderDetail = jdbcTemplate
-            .execute("select * from tb_order_detail limit 1 where order_no := order_no", { PreparedStatement statement ->
-                statement.setString("order_no", "A")
-            } as PreparedStatementCallback)
+        println jdbcTemplate.toString()
+        //jdbcTemplate.execute("select * from tb_operation_info")
+        List resList = jdbcTemplate.queryForList("select * from tb_operation_info")
+        List bizList = new ArrayList()
+        resList?.each {oper ->
+            println oper
+            Business b   = new Business()
+            b.agreeFlag  = oper.agree_flag
+            b.agreeUrl   = oper.agree_url
+            b.id         = oper.id
+            b.createTime = oper.create_time
+            bizList.add(b)
+        }
+
+        bizList?.each {
+            println it
+        }
     }
 }

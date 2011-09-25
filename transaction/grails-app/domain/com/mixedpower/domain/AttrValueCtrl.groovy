@@ -6,7 +6,7 @@ package com.mixedpower.domain
  * @email  daqing15@gmail.com
  */
 
-class AttrValueCtrl {
+class AttrValueCtrl implements Serializable{
 
     //Grails ORM 自动生成ID编号 关联控制ID	CONTROL_ID	NUMBER(10)	TRUE	FALSE	TRUE
     Integer attrId               //特性标识	ATTR_ID	NUMBER(10)	FALSE	FALSE	TRUE

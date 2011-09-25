@@ -7,7 +7,7 @@ package com.mixedpower.domain
  * @author daqing chen
  * @email  daqing15@gmail.com
  */
-class FeatureAttrValue {
+class FeatureAttrValue implements Serializable {
 
     //Grails ORM 自动生成ID编号	ID	NUMBER(10)	FALSE	FALSE	FALSE
 
