@@ -15,6 +15,15 @@ class Discount {
 	String sellContent
 
     static constraints = {
+        offerCode(nullable: true)
+        discCode(nullable: true)
+        discSort(nullable: true)
+        offerId(nullable: true)
+        discTypeArea(nullable: true)
+        discTypeTime(nullable: true)
+        sellContent(nullable: true)
+        discName(nullable: true)
+
     }
 
     static mapping = {
