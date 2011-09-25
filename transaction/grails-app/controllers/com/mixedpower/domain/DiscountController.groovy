@@ -6,11 +6,11 @@ class DiscountController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
-    def index() {
+    def index = {
         redirect(action: "list", params: params)
     }
 
-    def list() {
+    def list = {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
         [discountInstanceList: Discount.list(params), discountInstanceTotal: Discount.count()]
     }
@@ -19,7 +19,7 @@ class DiscountController {
         [discountInstance: new Discount(params)]
     }
 
-    def save() {
+    def save = {
         def discountInstance = new Discount(params)
         if (!discountInstance.save(flush: true)) {
             render(view: "create", model: [discountInstance: discountInstance])
@@ -30,7 +30,7 @@ class DiscountController {
         redirect(action: "show", id: discountInstance.id)
     }
 
-    def show() {
+    def show = {
         def discountInstance = Discount.get(params.id)
         if (!discountInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'discount.label', default: 'Discount'), params.id])
@@ -41,7 +41,7 @@ class DiscountController {
         [discountInstance: discountInstance]
     }
 
-    def edit() {
+    def edit = {
         def discountInstance = Discount.get(params.id)
         if (!discountInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'discount.label', default: 'Discount'), params.id])
@@ -52,7 +52,7 @@ class DiscountController {
         [discountInstance: discountInstance]
     }
 
-    def update() {
+    def update = {
         def discountInstance = Discount.get(params.id)
         if (!discountInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'discount.label', default: 'Discount'), params.id])
@@ -82,7 +82,7 @@ class DiscountController {
         redirect(action: "show", id: discountInstance.id)
     }
 
-    def delete() {
+    def delete = {
         def discountInstance = Discount.get(params.id)
         if (!discountInstance) {
             flash.message = message(code: 'default.not.found.message', args: [message(code: 'discount.label', default: 'Discount'), params.id])
