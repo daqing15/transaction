@@ -49,8 +49,8 @@ class DiscountController {
             redirect(action: "list")
             return
         }
-
-        [discountInstance: discountInstance]
+        println DISCOUNT_CLASS.values()
+        [discountInstance: discountInstance, discClass: DISCOUNT_CLASS.values()]
     }
 
     def update = {

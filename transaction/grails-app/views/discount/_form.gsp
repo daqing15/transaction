@@ -23,8 +23,8 @@
         <g:message code="discount.discSort.label" default="Disc Sort"/>
 
     </label>
-    <g:select name="discSort" from="${discClass}" value="${discClass?.toString()}" />
-    %{--<g:textField name="discSort" value="${discountInstance?.discSort}"/>--}%
+    <g:select name="discSort" from="${discClass}" value="${discountInstance?.discSort}" />
+    %{--value="${discClass?.toString()}<g:textField name="discSort" value="${discountInstance?.discSort}"/>--}%
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: discountInstance, field: 'offerId', 'error')} ">
